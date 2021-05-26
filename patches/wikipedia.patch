@@ -1,0 +1,135 @@
+diff --git a/ContinueReadingWidget/ContinueReadingWidget.entitlements b/ContinueReadingWidget/ContinueReadingWidget.entitlements
+index 67f62b1..24c3103 100644
+--- a/ContinueReadingWidget/ContinueReadingWidget.entitlements
++++ b/ContinueReadingWidget/ContinueReadingWidget.entitlements
+@@ -1,16 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict>
+-	<key>com.apple.developer.associated-domains</key>
+-	<array>
+-		<string>webcredentials:*.wikipedia.org</string>
+-	</array>
+-	<key>com.apple.security.application-groups</key>
+-	<array>
+-		<string>group.org.wikimedia.wikipedia</string>
+-		<string>group.org.wikimedia.wikipedia.alpha</string>
+-		<string>group.org.wikimedia.wikipedia.beta</string>
+-	</array>
+-</dict>
++	<dict>
++	</dict>
+ </plist>
+diff --git a/FeaturedArticleWidget/FeaturedArticleWidget.entitlements b/FeaturedArticleWidget/FeaturedArticleWidget.entitlements
+index e3d4cc9..24c3103 100644
+--- a/FeaturedArticleWidget/FeaturedArticleWidget.entitlements
++++ b/FeaturedArticleWidget/FeaturedArticleWidget.entitlements
+@@ -1,12 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict>
+-	<key>com.apple.security.application-groups</key>
+-	<array>
+-		<string>group.org.wikimedia.wikipedia</string>
+-		<string>group.org.wikimedia.wikipedia.alpha</string>
+-		<string>group.org.wikimedia.wikipedia.beta</string>
+-	</array>
+-</dict>
++	<dict>
++	</dict>
+ </plist>
+diff --git a/InTheNewsNotification/InTheNewsNotification.entitlements b/InTheNewsNotification/InTheNewsNotification.entitlements
+index 67f62b1..24c3103 100644
+--- a/InTheNewsNotification/InTheNewsNotification.entitlements
++++ b/InTheNewsNotification/InTheNewsNotification.entitlements
+@@ -1,16 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict>
+-	<key>com.apple.developer.associated-domains</key>
+-	<array>
+-		<string>webcredentials:*.wikipedia.org</string>
+-	</array>
+-	<key>com.apple.security.application-groups</key>
+-	<array>
+-		<string>group.org.wikimedia.wikipedia</string>
+-		<string>group.org.wikimedia.wikipedia.alpha</string>
+-		<string>group.org.wikimedia.wikipedia.beta</string>
+-	</array>
+-</dict>
++	<dict>
++	</dict>
+ </plist>
+diff --git a/TopReadWidget/TopReadWidget.entitlements b/TopReadWidget/TopReadWidget.entitlements
+index 67f62b1..24c3103 100644
+--- a/TopReadWidget/TopReadWidget.entitlements
++++ b/TopReadWidget/TopReadWidget.entitlements
+@@ -1,16 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict>
+-	<key>com.apple.developer.associated-domains</key>
+-	<array>
+-		<string>webcredentials:*.wikipedia.org</string>
+-	</array>
+-	<key>com.apple.security.application-groups</key>
+-	<array>
+-		<string>group.org.wikimedia.wikipedia</string>
+-		<string>group.org.wikimedia.wikipedia.alpha</string>
+-		<string>group.org.wikimedia.wikipedia.beta</string>
+-	</array>
+-</dict>
++	<dict>
++	</dict>
+ </plist>
+diff --git a/Widgets/WidgetsExtension.entitlements b/Widgets/WidgetsExtension.entitlements
+index e3d4cc9..24c3103 100644
+--- a/Widgets/WidgetsExtension.entitlements
++++ b/Widgets/WidgetsExtension.entitlements
+@@ -1,12 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict>
+-	<key>com.apple.security.application-groups</key>
+-	<array>
+-		<string>group.org.wikimedia.wikipedia</string>
+-		<string>group.org.wikimedia.wikipedia.alpha</string>
+-		<string>group.org.wikimedia.wikipedia.beta</string>
+-	</array>
+-</dict>
++	<dict>
++	</dict>
+ </plist>
+diff --git a/Wikipedia/Wikipedia.entitlements b/Wikipedia/Wikipedia.entitlements
+index 4df16e9..1da3936 100644
+--- a/Wikipedia/Wikipedia.entitlements
++++ b/Wikipedia/Wikipedia.entitlements
+@@ -1,21 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict>
+-	<key>com.apple.developer.associated-domains</key>
+-	<array>
+-		<string>applinks:*.wikipedia.org</string>
+-		<string>webcredentials:*.wikipedia.org</string>
+-		<string>activitycontinuation:*.wikipedia.org</string>
+-		<string>applinks:wikipedia.org</string>
+-		<string>activitycontinuation:wikipedia.org</string>
+-		<string>webcredentials:wikipedia.org</string>
+-	</array>
+-	<key>com.apple.security.application-groups</key>
+-	<array>
+-		<string>group.org.wikimedia.wikipedia</string>
+-		<string>group.org.wikimedia.wikipedia.alpha</string>
+-		<string>group.org.wikimedia.wikipedia.beta</string>
+-	</array>
+-</dict>
++  <dict>
++  </dict>
+ </plist>
