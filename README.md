@@ -7,6 +7,7 @@ This is the source code for an experiment presented at https://screenplay.dev/bl
 ## Installation and Running
 
 ```
+yarn global add ts-node
 yarn install
 yarn start test-wikipedia
 ```
